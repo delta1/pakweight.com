@@ -3,6 +3,8 @@ publish = "public"
 command = "zola build"
 
 [build.environment]
+GIT_LFS_ENABLED = true
+GIT_LFS_FETCH_INCLUDE = "*.mp3"
 ZOLA_VERSION = "0.17.2"
 
 [context.deploy-preview]
