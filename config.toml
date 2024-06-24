@@ -1,0 +1,52 @@
+base_url = "https://pakweight.com"
+title = "THE PAKWEIGHT SHOW"
+description = "This is The Pakweight Show."
+build_search_index = true
+generate_feed = true
+feed_filename = "podcast.xml"
+compile_sass = true
+minify_html = true
+taxonomies = [{ name = "tags" }]
+theme = "apollo"
+
+[markdown]
+highlight_code = true
+highlight_theme = "ayu-dark"
+
+[extra]
+toc = false
+use_cdn = false
+favicon = "/icon/favicon.png"
+theme = "dark"              # light, dark, auto, toggle
+comment = false
+fancy_code = true
+dynamic_note = true # a note that can be toggled
+h_anchor_link = true
+# mathjax = true
+# mathjax_dollar_inline_enable = true
+
+menu = [
+    { name = "episodes", url = "/episodes", weight = 1 },
+    { name = "about", url = "/about", weight = 2 },
+    { name = "tags", url = "/tags", weight = 3 },
+]
+
+socials = [
+    { name = "youtube", url = "https://youtube.com/@pakweight", icon = "youtube" },
+    { name = "email", url = "mailto:pakweightpodcast@gmail.com", icon = "email" },
+    # { name = "twitter", url = "https://x.com/pakweight", icon = "twitter" },
+    { name = "rss", url = "/podcast.xml", icon = "rss" },
+]
+
+custom_css = []
+
+[extra.analytics]
+enabled = false
+
+[extra.analytics.goatcounter]
+user = "your_user"
+host = "example.com" # default= goatcounter.com
+
+[extra.analytics.umami]
+website_id = "43929cd1-1e83...."
+host_url = "https://stats.mywebsite.com" # default: https://analytics.eu.umami.is
