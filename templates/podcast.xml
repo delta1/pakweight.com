@@ -8,7 +8,7 @@ xmlns:atom="http://www.w3.org/2005/Atom">
         <itunes:email>pakweightpodcast@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:author>PAKWEIGHT</itunes:author>
-    <itunes:category text="Society &amp; Culture" />
+    <itunes:category text="Society &amp; Culture"><itunes:category text="Relationships" /></itunes:category>
     <itunes:explicit>true</itunes:explicit>
     <itunes:summary>This is The Pakweight Show. A group of friends from South Africa discussing a wide range of topics.</itunes:summary>
     <description>This is The Pakweight Show. A group of friends from South Africa discussing a wide range of topics.</description>
