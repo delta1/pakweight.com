@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<rss version="2.0"
+     xmlns:atom="https://www.w3.org/2005/Atom"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:podcast="https://podcastindex.org/namespace/1.0"
+     >
   <channel>
     <title>The Pakweight Show</title>
     <itunes:owner>
         <itunes:email>pakweightpodcast@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:author>PAKWEIGHT</itunes:author>
-    <description></description>
+    <itunes:category text="Society &amp; Culture" />
+    <itunes:explicit>true</itunes:explicit>
+    <itunes:summary>This is The Pakweight Show. A group of friends from South Africa discussing a wide range of topics.</itunes:summary>
+    <description>This is The Pakweight Show. A group of friends from South Africa discussing a wide range of topics.</description>
     <itunes:image href="https://pakweight.com/img/podcast.png"/>
     <language>en-us</language>
     <link>https://pakweight.com/episodes/</link>
+    <podcast:guid>24062ccf-bedd-5f0c-ab35-d6c27e7e9c53</podcast:guid>
+    <atom:link href="https://pakweight.com/podcast.xml" rel="self" type="application/rss+xml" />
 
     {%- for page in pages %}
     <item>
@@ -19,6 +28,7 @@
       <enclosure url="https://pakweight.com/audio/{{ page.extra.file }}.mp3" type="{{ page.extra.type }}" length="{{ page.extra.length }}"/>
       <itunes:duration>{{ page.extra.duration }}</itunes:duration>
       <guid>https://pakweight.com/audio/{{ page.extra.file }}.mp3</guid>
+      <link>{{ page.permalink }}</link>
     </item>
     {%- endfor %}
 
