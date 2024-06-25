@@ -17,6 +17,7 @@ xmlns:atom="http://www.w3.org/2005/Atom">
     <link>https://pakweight.com/episodes/</link>
     <podcast:guid>24062ccf-bedd-5f0c-ab35-d6c27e7e9c53</podcast:guid>
     <atom:link href="https://pakweight.com/podcast.xml" rel="self" type="application/rss+xml" />
+    <podcast:locked>yes</podcast:locked>
 
     {%- for page in pages %}
     <item>
