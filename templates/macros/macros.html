@@ -199,7 +199,6 @@
                 <script src="/waveforms/{{ page.extra.file }}.js"></script>
                 <div id="wave"></div>
                 <script>
-                    console.log("data", data)
                     const wavesurfer = WaveSurfer.create({
                         container: "#wave",
                         url: "/audio/{{ page.extra.file }}.mp3",
@@ -227,6 +226,21 @@
                         title="The Pakweight Show" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            {% endif %}
+            {% if page.assets %}
+                <h2>Images</h2>
+                <div class="cards">
+                {% for asset in page.assets -%}
+                {%- if asset is matching("[.](jpg|png)$") -%}
+                    {% set image = resize_image(path=asset, width=480, height=320) %}
+                    <div class="card">
+                    <a href="{{ get_url(path=asset) }}" target="_blank">
+                    <img class="card-image" src="{{ image.url }}" />
+                    </a>
+                    </div>
+                {%- endif %}
+                {%- endfor %}
+                </div>
             {% endif %}
         </section>
     </article>

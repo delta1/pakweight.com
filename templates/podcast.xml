@@ -5,13 +5,13 @@ xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The Pakweight Show</title>
     <itunes:owner>
-        <itunes:email>pakweightpodcast@gmail.com</itunes:email>
+        <itunes:email>info@pakweight.com</itunes:email>
     </itunes:owner>
-    <itunes:author>PAKWEIGHT</itunes:author>
+    <itunes:author>The Pakweight Show</itunes:author>
     <itunes:category text="Society &amp; Culture"><itunes:category text="Relationships" /></itunes:category>
     <itunes:explicit>true</itunes:explicit>
-    <itunes:summary>This is The Pakweight Show. A group of friends from South Africa discussing a wide range of topics.</itunes:summary>
-    <description>This is The Pakweight Show. A group of friends from South Africa discussing a wide range of topics.</description>
+    <itunes:summary>Welcome to The Pakweight Show. We are a group of close friends from South Africa discussing a wide range of topics.</itunes:summary>
+    <description>Welcome to The Pakweight Show. We are a group of close friends from South Africa discussing a wide range of topics.</description>
     <itunes:image href="https://pakweight.com/img/podcast.png"/>
     <language>en-us</language>
     <link>https://pakweight.com/episodes/</link>

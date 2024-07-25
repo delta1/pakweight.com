@@ -11,7 +11,7 @@ We grew up rollerblading, partying, and travelling together, and we have remaine
 
 [youtube.com/@pakweight](https://www.youtube.com/@pakweight)
 
-[pakweightpodcast@gmail.com](mailto:pakweightpodcast@gmail.com)
+[info@pakweight.com](mailto:info@pakweight.com)
 
 <figure>
 <img src="/img/pwc.jpg" alt="">

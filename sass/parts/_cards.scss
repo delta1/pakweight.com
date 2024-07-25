@@ -20,8 +20,8 @@
 .card {
     min-height: 100px;
     background: var(--bg-2);
-    border: 2px solid var(--border-color);
-    border-radius: 10px;
+    // border: 2px solid var(--border-color);
+    // border-radius: 10px;
     overflow: hidden;
 }
 
@@ -34,8 +34,14 @@
 }
 
 .card-image {
-    border: unset;
-    width: 100%;
+    border: 2px solid var(--border-color);
+    // width: 100%;
+    border-radius: 6px;
+}
+
+div.card > a, div.card > a:hover {
+    border-bottom: none;
+    background-color: transparent;
 }
 
 .card-image-placeholder {

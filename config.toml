@@ -2,8 +2,8 @@ base_url = "https://pakweight.com"
 title = "THE PAKWEIGHT SHOW"
 description = "This is The Pakweight Show."
 build_search_index = true
-generate_feed = true
-feed_filename = "podcast.xml"
+generate_feeds = true
+feed_filenames = ["podcast.xml"]
 compile_sass = true
 minify_html = true
 taxonomies = [{ name = "tags" }]
@@ -33,7 +33,7 @@ menu = [
 
 socials = [
     { name = "youtube", url = "https://youtube.com/@pakweight", icon = "youtube" },
-    { name = "email", url = "mailto:pakweightpodcast@gmail.com", icon = "email" },
+    { name = "email", url = "mailto:info@pakweight.com", icon = "email" },
     # { name = "twitter", url = "https://x.com/pakweight", icon = "twitter" },
     { name = "rss", url = "/podcast.xml", icon = "rss" },
 ]
