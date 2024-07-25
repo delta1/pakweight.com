@@ -54,6 +54,12 @@ div.card > a, div.card > a:hover {
     overflow: hidden;
 }
 
+.listen, .listen:hover, .listen img {
+    border: none !important;
+    background-color: transparent !important;
+    margin: 10px 10px 0 0;
+}
+
 @media all and (max-width:720px) {
     .cards {
         gap: 18px;

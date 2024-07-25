@@ -32,10 +32,13 @@ menu = [
 ]
 
 socials = [
-    { name = "youtube", url = "https://youtube.com/@pakweight", icon = "youtube" },
-    { name = "email", url = "mailto:info@pakweight.com", icon = "email" },
-    # { name = "twitter", url = "https://x.com/pakweight", icon = "twitter" },
-    { name = "rss", url = "/podcast.xml", icon = "rss" },
+    { name = "YouTube", url = "https://youtube.com/@pakweight", icon = "youtube" },
+    { name = "Spotify", url = "https://open.spotify.com/show/70TGawrgg0wcbU1EHG13z4", icon = "spotify" },
+    { name = "Apple", url = "https://podcasts.apple.com/us/podcast/the-pakweight-show/id1753893319", icon = "apple" },
+    { name = "Fountain.fm", url = "https://fountain.fm/show/jVXm5uIE4TKNcYtRNZHZ", icon = "bitcoin" },
+    { name = "Email", url = "mailto:info@pakweight.com", icon = "email" },
+    # { name = "Twitter", url = "https://x.com/pakweight", icon = "twitter" },
+    { name = "RSS", url = "/podcast.xml", icon = "rss" },
 ]
 
 custom_css = []
