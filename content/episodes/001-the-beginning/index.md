@@ -29,8 +29,6 @@ value = "Welcome to the very first episode of The Pakweight Show!  JQ, Bizzle, a
 
 +++
 
-{{page}}
-
 Welcome to the very first episode of The Pakweight Show!
 
 JQ, Bizzle, and Frank introduce themselves, the show, and the origin of the Pakweight name.
