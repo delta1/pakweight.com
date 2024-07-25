@@ -16,7 +16,7 @@ youtube = "ycN7qNHE2OE"
 spotify = "https://open.spotify.com/episode/5Ijw3IVkrgl4PTb0kkJdXr"
 apple = "https://podcasts.apple.com/us/podcast/001-the-beginning-of-everything/id1753893319?i=1000663305236"
 fountain = "https://fountain.fm/episode/3lbLZ9XcPsafm7Dt1h4H"
-image = "https://pakweight.com/episodes/001-the-beginning/09.jpg"
+image = "https://pakweight.com/processed_images/09.8cf1f32fdf67bfc2.jpg"
 [[meta]]
 property = "og:description"
 value = "Welcome to the very first episode of The Pakweight Show!  JQ, Bizzle, and Frank introduce themselves, the show, and the origin of the Pakweight name.  We take a look at some old photos, growing up rollerblading in the early 90s, skateparks, pro bladers, competitions, and the tragic passing of our friend Alex Groll."
