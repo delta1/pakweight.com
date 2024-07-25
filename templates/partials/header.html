@@ -16,6 +16,9 @@
                      {% if key == "property" and value == "og:description"%}
                          {% set_global page_has_og_description = true -%}
                      {% endif %}
+                     {% if key == "property" and value == "og:image"%}
+                         {% set_global page_has_og_image = true -%}
+                     {% endif %}
                      {% if key == "name" and value == "description"%}
                          {% set_global page_has_description = true -%}
                      {% endif %}
@@ -42,13 +45,23 @@
         {% if page.title %} {{ page.title }}
         {% elif section.title %} {{ section.title }}
         {% elif config.title %} {{ config.title }}
-        {% else %} Post {% endif %} | PAKWEIGHT
+        {% else %} Post {% endif %} | THE PAKWEIGHT SHOW
     </title>
+
+    {% if page.url %}
+    <meta property="og:url" content="{{ current_url }}" />
+    {% endif %}
 
         {% if not page_has_og_title %}
             <meta property="og:title" content="{% if page.title -%}{{ page.title }}{% elif config.title -%}{{ config.title }}{% else -%}Post{% endif -%}" />
         {% endif %}
      {% endif %}
+
+    {% if page.extra.image %}
+        <meta property="og:image" content="{{ page.extra.image }}" />
+    {% else %}
+        <meta property="og:image" content="https://pakweight.com/img/podcast.png" />
+    {% endif %}
 
      {% if not page_has_og_description %}
          {% if page.description %}
