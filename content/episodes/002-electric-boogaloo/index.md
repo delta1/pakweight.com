@@ -13,9 +13,9 @@ type = "audio/mpeg"
 length = 104265421
 duration = "01:26:53"
 youtube = "_aqysdTpKlM"
-spotify = ""
-apple = ""
-fountain = ""
+spotify = "https://open.spotify.com/episode/13GngoZfMa2BIuqU8Xn6Aj"
+apple = "https://podcasts.apple.com/us/podcast/002-electric-boogaloo/id1753893319?i=1000665251916"
+fountain = "https://fountain.fm/episode/h5X8BfkL6jKpNh73Anch"
 image = "https://pakweight.com/processed_images/18-keep-it-roll-comp-2002.69060c57c5e2fe1e.jpg"
 [[meta]]
 property = "og:description"
