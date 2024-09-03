@@ -16,7 +16,7 @@ youtube = "5TSRrfvWAGo"
 spotify = "https://open.spotify.com/episode/7jOYTZv8JMMD5nk3sPG8t3"
 apple = "https://podcasts.apple.com/us/podcast/003-the-majestic-filly/id1753893319?i=1000668158722"
 fountain = "https://fountain.fm/episode/bsWP9a7S75x6SgVqAjsM"
-image = "https://pakweight.com/img/cliffshare2.png"
+image = "https://pakweight.com/img/cliffshare3.png"
 [[meta]]
 property = "og:description"
 value = "Our guest this episode is our legendary friend Clifford Viljoen, the best rollblading export from South Africa!"
