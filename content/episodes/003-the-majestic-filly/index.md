@@ -13,9 +13,9 @@ type = "audio/mpeg"
 length = 123963442
 duration = "01:43:18"
 youtube = "5TSRrfvWAGo"
-spotify = ""
-apple = ""
-fountain = ""
+spotify = "https://open.spotify.com/episode/7jOYTZv8JMMD5nk3sPG8t3"
+apple = "https://podcasts.apple.com/us/podcast/003-the-majestic-filly/id1753893319?i=1000668158722"
+fountain = "https://fountain.fm/episode/bsWP9a7S75x6SgVqAjsM"
 image = "https://pakweight.com/img/cliffshare2.png"
 [[meta]]
 property = "og:description"
