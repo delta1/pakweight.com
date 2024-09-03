@@ -16,7 +16,7 @@ youtube = "5TSRrfvWAGo"
 spotify = ""
 apple = ""
 fountain = ""
-image = "https://pakweight.com/processed_images/12-cliff.6622714bf331591d.jpg"
+image = "https://pakweight.com/img/cliffshare.png"
 [[meta]]
 property = "og:description"
 value = "Our guest this episode is our legendary friend Clifford Viljoen, the best rollblading export from South Africa!"
