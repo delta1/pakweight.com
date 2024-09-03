@@ -192,6 +192,9 @@
             {{ page.content | safe }}
         </section>
         <section class="players">
+                {% if page.extra.youtube %}
+                    <a class="listen" href="https://www.youtube.com/watch?v={{ page.extra.youtube }}" target="_blank"><img src="/img/youtube.svg" alt="Watch on YouTube" /></a>
+                {% endif %}
                 {% if page.extra.apple %}
                     <a class="listen" href="{{ page.extra.apple }}" target="_blank"><img src="/img/apple.svg" alt="Listen on Apple Podcasts" /></a>
                 {% endif %}
@@ -200,9 +203,6 @@
                 {% endif %}
                 {% if page.extra.fountain %}
                     <a class="listen" href="{{ page.extra.fountain }}" target="_blank"><img src="/img/fountain.svg" alt="Listen on Fountain.fm" /></a>
-                {% endif %}
-                {% if page.extra.youtube %}
-                    <a class="listen" href="https://www.youtube.com/watch?v={{ page.extra.youtube }}" target="_blank"><img src="/img/youtube.svg" alt="Watch on YouTube" /></a>
                 {% endif %}
             {% if page.extra.file %}
                 <h2>Audio</h2>
