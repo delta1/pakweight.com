@@ -1,7 +1,7 @@
 +++
 title = "003 - The Majestic Filly"
 date = "2024-09-03"
-description = "Our guest this episode is our legendary friend Clifford Viljoen, the best rollblading export from South Africa!"
+description = "Our guest this episode is our legendary friend Clifford Viljoen, the best rollerblading export from South Africa!"
 
 [taxonomies]
 tags = ["friends","rollerblading","clifford viljoen","roces"]
@@ -19,13 +19,13 @@ fountain = "https://fountain.fm/episode/bsWP9a7S75x6SgVqAjsM"
 image = "https://pakweight.com/processed_images/24-cliff-roces-ad.36591b34fc15fa6a.png"
 [[meta]]
 property = "og:description"
-value = "Our guest this episode is our legendary friend Clifford Viljoen, the best rollblading export from South Africa!"
+value = "Our guest this episode is our legendary friend Clifford Viljoen, the best rollerblading export from South Africa!"
 [[meta]]
 property = "og:title"
 value = "The Majestic Filly | The Pakweight Show"
 [[meta]]
 name = "description"
-value = "Our guest this episode is our legendary friend Clifford Viljoen, the best rollblading export from South Africa!"
+value = "Our guest this episode is our legendary friend Clifford Viljoen, the best rollerblading export from South Africa!"
 
 +++
 
