@@ -13,8 +13,8 @@ type = "audio/mpeg"
 length = 91288314
 duration = "01:16:04"
 youtube = "L-WKe3pCfqM"
-spotify = ""
-apple = ""
+spotify = "https://open.spotify.com/episode/25kAAIxnTshxT3wizB7ODI"
+apple = "https://podcasts.apple.com/us/podcast/004-give-it-to-ya-raw/id1753893319?i=1000672407550"
 fountain = ""
 image = "https://pakweight.com/processed_images/09-cliff-garrett.fdff75f5ced7094e.jpg"
 [[meta]]
