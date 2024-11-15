@@ -13,9 +13,9 @@ type = "audio/mpeg"
 length = 125344151
 duration = "01:44:27"
 youtube = "cJPz6bjcjHs"
-spotify = ""
-apple = ""
-fountain = ""
+spotify = "https://open.spotify.com/episode/68Cuj0yN2ttXZ8iskMROLH"
+apple = "https://podcasts.apple.com/us/podcast/005-the-nokateal-live/id1753893319?i=1000677078512"
+fountain = "https://fountain.fm/episode/mCKPUZK9a6xn0pkTK4H1"
 image = "https://pakweight.com/processed_images/32-matt-cross-torque.b4a87d676a8bd499.jpg"
 [[meta]]
 property = "og:description"
