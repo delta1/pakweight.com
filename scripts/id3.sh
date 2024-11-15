@@ -14,6 +14,6 @@ else
     id3v2 --genre 186 $file
     id3v2 --track $track $file
     id3v2 --year $year $file
-    id3v2 -t $title $file
+    id3v2 -t "$title" $file
     id3v2 --list $file
 fi
