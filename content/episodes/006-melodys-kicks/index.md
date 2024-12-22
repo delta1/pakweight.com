@@ -13,9 +13,9 @@ type = "audio/mpeg"
 length = 132058143
 duration = "01:50:02"
 youtube = "G9ULh6m3XME"
-spotify = ""
-apple = ""
-fountain = ""
+spotify = "https://open.spotify.com/episode/1u7Vehf3mQIqriun3KOJJr?si=9154HvjYSGCnObYax0bZSQ"
+apple = "https://podcasts.apple.com/us/podcast/006-melodys-kicks/id1753893319?i=1000681248160"
+fountain = "https://fountain.fm/episode/Wmi5VTl1o74JGrERCraE"
 image = "https://pakweight.com/processed_images/18.9cad5b95f40a5b9a.png"
 [[meta]]
 property = "og:description"
