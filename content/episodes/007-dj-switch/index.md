@@ -13,9 +13,9 @@ type = "audio/mpeg"
 length = 142084984
 duration = "01:58:24"
 youtube = "H7ReQ8i-OkI"
-spotify = ""
-apple = ""
-fountain = ""
+spotify = "https://open.spotify.com/episode/4CHmX6N0OrNadoawjuppIG?si=q0cGyzTGTfeKT6B72z3-6A"
+apple = "https://podcasts.apple.com/us/podcast/007-dj-switch/id1753893319?i=1000684829276"
+fountain = "https://fountain.fm/episode/RCAsJCE0Feyix3gB9Pzc"
 image = "https://pakweight.com/processed_images/14.a004696758d27b4d.jpg"
 [[meta]]
 property = "og:description"
