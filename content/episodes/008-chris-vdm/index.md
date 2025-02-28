@@ -13,9 +13,9 @@ type = "audio/mpeg"
 length = 127900518
 duration = "01:46:34"
 youtube = "4d5hsxmsW2k"
-spotify = ""
-apple = ""
-fountain = ""
+spotify = "https://open.spotify.com/episode/0DO9YWeyfR7RbXpcgdIki6?si=UrMDNK8rTHSv0IIfRuywXQ"
+apple = "https://podcasts.apple.com/us/podcast/008-chris-van-der-merwe/id1753893319?i=1000696750926"
+fountain = "https://fountain.fm/episode/GT1s90RSez4c8jgmxSiZ"
 image = "https://pakweight.com/processed_images/01.9b6b5744ae3396ca.jpg"
 [[meta]]
 property = "og:description"
