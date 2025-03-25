@@ -20,6 +20,7 @@ xmlns:atom="http://www.w3.org/2005/Atom">
     <podcast:locked>yes</podcast:locked>
 
     {%- for page in pages %}
+    {% if page.extra.file %}
     <item>
       <title>{{ page.title }}</title>
       <description>{{ page.description }}</description>
@@ -29,6 +30,7 @@ xmlns:atom="http://www.w3.org/2005/Atom">
       <guid>https://pakweight.com/audio/{{ page.extra.file }}.mp3</guid>
       <link>{{ page.permalink }}</link>
     </item>
+    {% endif %}
     {%- endfor %}
 
   </channel>
