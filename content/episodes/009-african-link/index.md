@@ -12,7 +12,7 @@ youtube = "KHmqfAFlZnQ"
 spotify = ""
 apple = ""
 fountain = ""
-image = "https://pakweight.com/img/link.png"
+image = "https://pakweight.com/img/link2.png"
 [[meta]]
 property = "og:description"
 value = "Join us as we watch this legendary old rollerblading movie by Herman Potgieter!"
