@@ -4,7 +4,7 @@ command = "zola build"
 
 [build.environment]
 GIT_LFS_ENABLED = "true"
-ZOLA_VERSION = "0.19.1"
+ZOLA_VERSION = "0.20.0"
 
 [context.deploy-preview]
 command = "zola build --base-url $DEPLOY_PRIME_URL"
