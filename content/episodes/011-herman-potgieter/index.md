@@ -15,7 +15,7 @@ duration = "01:32:38"
 youtube = "NKMxeHOd1Bc"
 spotify = "https://open.spotify.com/episode/05BxOiNxAq7sjKpi35gw6i"
 apple = "https://podcasts.apple.com/us/podcast/011-herman-potgieter/id1753893319?i=1000717484728"
-fountain = ""
+fountain = "https://fountain.fm/episode/4Lh32soMDoUcoL34yhhQ"
 image = "https://pakweight.com/processed_images/05.2d1d0cb2766f92bf.jpg"
 [[meta]]
 property = "og:description"
